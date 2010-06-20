@@ -38,7 +38,8 @@ layout :layout
 
 #Home Page
 get '/' do
-  haml :index
+  "Hello World"
+  #haml :index
 end
 
 #Give URL Page
