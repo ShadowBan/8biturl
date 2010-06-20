@@ -6,8 +6,7 @@ require 'dm-migrations'
 require 'haml'
 
 ### SETUP
-
-DataMapper.setup(:default, 'mysql://localhost/biturl')
+DataMapper.setup(:default, ENV['DATABASE_URL'] || 'mysql://localhost/biturl')
 
 ### MODELS
 
