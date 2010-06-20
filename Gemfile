@@ -1,6 +1,8 @@
 source :gemcutter
-#gem "sinatra"
+gem "sinatra"
 gem "dm-core"
+gem "dm-mysql-adapter"
+gem "dm-migrations"
 gem "mysql"
 
 # bundler requires these gems in all environments

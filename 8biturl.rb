@@ -2,6 +2,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'dm-core'
+require 'dm-migrations'
 require 'haml'
 
 ### SETUP
@@ -26,6 +27,8 @@ class Biturl
     end while false
   end
 end
+
+DataMapper.finalize
 
 #DataMapper.auto_migrate!
 DataMapper.auto_upgrade!
