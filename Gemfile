@@ -1,5 +1,5 @@
 source :gemcutter
-gem "sinatra"
+#gem "sinatra"
 gem "dm-core"
 gem "mysql"
 
