@@ -6,16 +6,15 @@ body{
 	border: none;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	background: #F9C500;
-	height:100%;
+	background: #6b8cff url('/images/cloud_background.jpg') repeat fixed;
 }
 
 .wrap{
   margin: 0 auto;
   margin-bottom:35px;
-  width:960px;
+  width:638px;
   min-height:500px;
-  background: #F9C500;
+  background: #6b8cff;
 }
 
 .left{
@@ -31,41 +30,35 @@ body{
 }
 
 .header{
-  width:100%;
-  background: #F9C500;
-}
-
-.logo{
   margin: 0 auto;
   width:638px;
-} 
+}
 
 .container{
   margin: 0 auto;
   width:638px;
   min-height:350px;
   background:#FFFFFF;
-  //margin-top:250px;
 }
 
 .footer{
   margin: 0 auto;
   width:638px;
-  background: #FFFFFF;
-}
-
-.screen{
-  padding-top:25px; 
-  width: 100%;
-  height: 638px;
-  background: #000000 url('/images/pong2.png') no-repeat;
 }
 
 .copyright{
-  margin: 0 auto;
-  width:638px;
-} 
+ position: fixed;
+ margin: 0 auto;
+ width:250px;
+ top: auto;
+ right: 0;
+ bottom: 0;
+ left: 0;
+}
 
+.copyright p{
+  background:#ef5700;
+}
 @font-face {
   font-family: bit;
   src: url("/fonts/fipps.ttf");
@@ -85,6 +78,6 @@ body{
   right: 0;
   bottom: 0;
   left: 0;
-  //background: url('/images/level_hollow.png') repeat-x;
+  background: url('/images/level_hollow.png') repeat-x;
   z-index:-1;
 }

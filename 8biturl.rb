@@ -1,6 +1,7 @@
 #8bitURL.rb
 require 'rubygems'
 require 'sinatra'
+require "sinatra/reloader" if development?
 require 'dm-core'
 require 'dm-migrations'
 require 'haml'
@@ -38,8 +39,8 @@ layout :layout
 
 #Home Page
 get '/' do
-  "Hello World"
-  #haml :index
+  #"Hello World"
+  haml :index
 end
 
 #Give URL Page
